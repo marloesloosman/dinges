@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+    <meta charset="UTF-8">
+    <title>NS verhalen</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="stylesheet" href="Styles/header.css">
+    <link rel="stylesheet" href="Styles/overzichtspagina.css">
+    <link rel="stylesheet" href="Styles/Stylesheet.css">
+</head>
+
+<body>
+    <header>
+        <div class="container with-padding">
+            <img src="Images/icons/nslogo.svg" alt="NS logo" id="logo">
+            <div class="menu-right">
+                <div id="zoekbalk">
+                    <div id="search">
+                        <img src="Images/icons/search.svg" alt="NS zoeken" class="icon" id="search-icon">
+                        <div class="icon-text">
+                            <span id="search-text">
+                            Zoeken
+                        </span>
+                            <input type="text" id="searchInput" class="hidden" placeholder="Zoek naar">
+                        </div>
+                    </div>
+                    <a href="index.html"><img src="Images/icons/user.svg" alt="Mijn account" class="icon">
+                        <div class="icon-text">Account</div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div id="vvddimg">
+        <svg class="hero-overlay-svg" preserveAspectRatio="xMinYMin meet" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 767 423">
+            <defs>
+                <clipPath id="clip-path" transform="translate(-0.331)">
+                    <path class="cls-1" d="M0,423.5H4.523c111.477,0,212.584-43.107,289.315-119.838L477.662,119.838C554.393,43.107,655.954,0,766.977,0H0Z"></path>
+                </clipPath>
+                <linearGradient id="linear-gradient" y1="211.5" x2="767" y2="211.5" gradientUnits="userSpaceOnUse">
+                    <stop class="hero-overlay-start" offset="0" stop-color="currentColor" stop-opacity="0"></stop>
+                    <stop class="hero-overlay-stop" offset="1" stop-color="currentColor" stop-opacity="1"></stop>
+                </linearGradient>
+            </defs>
+            <g class="cls-2">
+                <rect class="cls-3" width="767" height="423"></rect>
+            </g>
+        </svg>
+        <div class="container">
+            <article id="verhaalvandedag">
+                <h3 class="hero-title">
+                Verhaal van de dag
+            </h3>
+                <p class="hero-text">
+                    "Klumperbeven" door Molovich
+                </p>
+                <a href="klumperbeven.html" class="hero-link link"><span>&gt;</span> Lees dit verhaal</a>
+            </article>
+        </div>
+    </div>
+    <div class="container" id="genres">
+        <h1 id="genre-heading">Kies een genre</h1>
+        <div id="genre-select-container">
+            <select id="genre-select">
+                <option value="all">Alle verhalen</option>
+                <option value="reality">Reality / Biografie</option>
+                <option value="horror">Horror</option>
+                <option value="thriller">Thriller</option>
+                <option value="humor">Humor</option>
+                <option value="baby">Baby</option>
+            </select>
+        </div>
+    </div>
+    <main class="container">
+        <div id="artikelen">
+            <article class="story" data-genre="reality">
+                <h2 class="heading">Beroemd</h2>
+                <img class="genre-icon" src="Images/icons/reality.svg" alt="">
+                <h3 class="subheading">Posted on 11 juli 2011 by Molovich</h3>
+                <p class="text">Vlak voordat ik de bus uitstap bedank ik de buschauffeur via de spiegel voor zijn diensten. Hij zwaait joviaal terug. ‘Mijn vrouw is een groot fan van u’, roept hij. ‘Doe haar de groeten’, zeg ik en stap uit. Centraal Station. Ik duw mijn zoon voort. Hij slaapt ...</p>
+                <a class="link" href="beroemd.html"><span>&gt;</span> Lees verder</a>
+            </article>
+            <article class="story" data-genre="thriller">
+                <h2 class="heading">Martin Bril</h2>
+                <img class="genre-icon" src="Images/icons/thriller.svg" alt="">
+                <h3 class="subheading">Posted on 1 juli 2011 by Molovich </h3>
+                <p class="text">Centraal Station. Iedereen gaat er naartoe, niemand moet er zijn. Behalve om verder te reizen. Ik stap uit de bus, lijn 21. Van Geuzenveld naar Centraal Station. Mijn zoon slaapt in zijn kinderwagen. Eindelijk. Het is druk op het plein, en toch ...</p>
+                <a class="link" href="martin-bril.html"><span>&gt;</span> Lees verder</a>
+            </article>
+            <article class="story" data-genre="humor">
+                <h2 class="heading">Klumperbeven</h2>
+                <img class="genre-icon" src="Images/icons/humor.svg" alt="">
+                <h3 class="subheading">Posted on 20 juni 2011 by Molovich </h3>
+                <p class="text">Ik bus de stap uit en been met gepaste zwind over het stationsplein. In mijn zoon ligt de kinderwagen te slapen. Het pijpt regenstelen en er guurt een winderige waai. De mensen keren in zichzelf gelopen, kraag in de kop, grond richting neus ...</p>
+                <a class="link" href="klumperbeven.html"><span>&gt;</span> Lees verder</a>
+            </article>
+            <article class="story" data-genre="humor">
+                <h2 class="heading">Steenkolenfrans</h2>
+                <img class="genre-icon" src="Images/icons/humor.svg" alt="">
+                <h3 class="subheading">Posted on 4 juli 2011 by Molovich </h3>
+                <p class="text">Le premier fevrièr 2011. Presque midi. Le bus s’arrête. Ligne 21. Place de Gare Centrale. Je marche au derrière d’un poussette. Mon fils dort. Je suis en route au Bibliothèque Public pour emprunteur Exercices de Style de Raymond Queneau ...</p>
+                <a class="link" href=""><span>&gt;</span> Lees verder</a>
+            </article>
+            <article class="story" data-genre="thriller">
+                <h2 class="heading">Het gebrek</h2>
+                <img class="genre-icon" src="Images/icons/thriller.svg" alt="">
+                <h3 class="subheading">Posted on 29 juni 2011 by Molovich </h3>
+                <p class="text">De bus uit. Mijn zoon tukt in zijn kinderkoets. Eindelijk. Ik loop over het plein. Een gierende wind en een striemende miezerregen geselen mijn gezicht. De mensen kijken voor zich uit, ieder voor zich. Ik ben op weg richting de ...</p>
+                <a class="link" href=""><span>&gt;</span> Lees verder</a>
+            </article>
+            <article class="story" data-genre="humor">
+                <h2 class="heading">Vergezocht</h2>
+                <img class="genre-icon" src="Images/icons/humor.svg" alt="">
+                <h3 class="subheading">Posted on 27 juni 2011 by Molovich </h3>
+                <p class="text">Het was in de omstreken van een gure februaridag rond het middaguur. Mijn zoon lag in zijn kinderwagen te slapen als een oude jamaicaan die teveel Rum achter de ontbrekende kiezen heeft. Ik stapte het gemeenteblik uit met de stramheid van een ...</p>
+                <a class="link" href=""><span>&gt;</span> Lees verder</a>
+            </article>
+            <article class="story" data-genre="baby">
+                <h2 class="heading">Zoon</h2>
+                <img class="genre-icon" src="Images/icons/baby.svg" alt="">
+                <h3 class="subheading">Posted on 24 juni 2011 by Molovich </h3>
+                <p class="text">Vroem. Tuut tuut. Whèèèh!! Die! Die! Whèèèh! Die! Die! Hjumhjumhjum. Zzzzzzzzzz.* Zzzzzzz.** Zzzzzzz. Hjumhjumhjum. Zzzzzzz. Grumbl. Huh? Whèèèh. Die! Die! Papa? Hjmwhumwhum. Boe?Boe? ...</p>
+                <a class="link" href=""><span>&gt;</span> Lees verder</a>
+            </article>
+            <article class="story" data-genre="reality">
+                <h2 class="heading">Telegrafisch</h2>
+                <img class="genre-icon" src="Images/icons/reality.svg" alt="">
+                <h3 class="subheading">Posted on 22 juni 2011 by Molovich</h3>
+                <p class="text">BUS STOPT STOP NAAR BIBLIOTHEEK VOOR STIJLOEFENINGEN STOP VAN RAYMOND QUENEAU STOP REGEN EN WIND MENSEN IN ZICHZELF GEKEERD STOP MODDERIGE TERINGZOOI HIER STOP DRILBOREN EN ...</p>
+                <a class="link" href=""> <span>&gt;</span> Lees verder </a>
+            </article>
+            <article class="story" data-genre="horror">
+                <h2 class="heading">Zombie</h2>
+                <img class="genre-icon" src="Images/icons/skull.svg" alt="">
+                <h3 class="subheading">Posted on 21 juni 2011 by Molovich</h3>
+                <p class="text">Duizenden hongerige ondoden lopen zielloos over het stationsplein. Op zoek naar voedsel, naar half vergane hondenlijken, naar vers mensenvlees. Het is gekkenwerk dat ik hier ben, maar de brandstof van de ...
+                </p>
+                <a class="link" href=""><span>&gt;</span> Lees verder</a>
+            </article>
+        </div>
+    </main>
+    <script src="JavaScript/verhalen.js"></script>
+</body>
+
+</html>

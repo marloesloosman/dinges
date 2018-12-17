@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Beroemd</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="stylesheet" href="Styles/detailpagina.css">
+    <link rel="stylesheet" href="Styles/header.css">
+    <link rel="stylesheet" href="Styles/Stylesheet.css">
+</head>
+
+<body>
+    <header>
+        <div class="container with-padding">
+            <img src="Images/icons/nslogo.svg" alt="NS logo" id="logo">
+            <div class="menu-right">
+                <div id="zoekbalk">
+                    <div id="search">
+                        <img src="Images/icons/search.svg" alt="NS zoeken" class="icon" id="search-icon">
+                        <div class="icon-text">
+                            <span id="search-text">
+                            Zoeken
+                        </span>
+                            <input type="text" id="searchInput" class="hidden" placeholder="Zoek naar">
+                        </div>
+                    </div>
+                    <a href="index.html"><img src="Images/icons/user.svg" alt="Mijn account" class="icon">
+                        <div class="icon-text">Account</div>
+                    </a>
+
+                </div>
+            </div>
+
+        </div>
+    </header>
+    <div class="verhaal123">
+        <img id="nonactief" src="Images/favoriet-ster-ios-7-interface-symbool_318-33645.png" alt="" onclick="document.getElementById('actief').style.display='block';
+  document.getElementById('nonactief').style.display='none';">
+        <img id="actief" style="display:none;" src="Images/image.png" alt="" onclick="document.getElementById('nonactief').style.display='block';
+  document.getElementById('actief').style.display='none';">
+        <img id="Beroemd" src="Images/Beroemd%20small.jpg" alt="">
+        <img id="BeroemdM" src="Images/Beroemd%20M.jpg" alt="">
+        <img id="BeroemdL" src="Images/Beroemd%20L.jpg" alt="">
+        <img id="BeroemdXL" src="Images/Beroemd%20XL.jpg" alt="">
+    </div>
+    <div id="react">
+        <textarea id="reageer" name="reactie" placeholder="Uw bericht"></textarea>
+        <img id="comment" src="Images/reageren.png" alt="" onclick="document.getElementById('reageer').style.height='8em';document.getElementById('reageer').style.display='inline-block';document.getElementById('comment').style.display='none';document.getElementById('zend').style.display='inline-block';">
+        <img id="zend" src="Images/verzenden.png" alt="" onclick="document.getElementById('reageer').style.height='0em';document.getElementById('reageer').style.display='none';document.getElementById('comment').style.display='inline-block';document.getElementById('zend').style.display='none'">
+    </div>
+    <script src="JavaScript/verhalen.js"></script>
+</body>
+
+</html>

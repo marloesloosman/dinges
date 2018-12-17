@@ -1,0 +1,207 @@
+#logo {
+    margin: 1.875em 0;
+}
+
+.content {
+    padding: 1em 5.3125em;
+    background: #fff;
+    box-shadow: 0 0.125em 0 0 rgba(7, 7, 33, 0.15);
+    margin-bottom: 4em;
+}
+
+#header {
+    margin-bottom: 2em;
+}
+
+#header h1 {
+    color: rgb(0, 48, 130);
+    font-family: "NS Sans", "Segoe UI", Myriad, Verdana, sans-serif;
+    font-size: 2.375em;
+    font-weight: 400;
+    height: 2.5em;
+    line-height: 2.5em;
+}
+
+p {
+    color: rgb(68, 68, 68);
+    font-family: "NS Sans", "Segoe UI", Myriad, Verdana, sans-serif;
+    font-size: 1em;
+    height: 1.5625em;
+    line-height: 1.5625em;
+}
+
+h3 {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 48, 130);
+    font-family: "NS Sans", "Segoe UI", Myriad, Verdana, sans-serif;
+    font-size: 1.5em;
+    font-weight: 400;
+    height: 1.875em;
+    line-height: 1.875em;
+    margin-bottom: 0.75em;
+    margin-right: 1.25em;
+}
+
+.text-input {
+    margin-top: 1em;
+    margin-bottom: 0.25em;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 0;
+    border: 0.06125em solid rgb(181, 181, 188);
+    box-shadow: none;
+    color: rgb(0, 0, 0);
+    font-family: "NS Sans", "Segoe UI", Myriad, Verdana, sans-serif;
+    font-size: 1em;
+    font-weight: 400;
+    letter-spacing: normal;
+    line-height: 1.5625em;
+    max-width: 31.5625em;
+    padding: 0.6875em 0.9375em 0.6875em 0.9375em;
+    vertical-align: middle;
+}
+
+#form label {
+    margin-top: 1em;
+    margin-bottom: .25em;
+    color: rgb(0, 48, 130);
+    cursor: pointer;
+    font-family: "NS Sans", "Segoe UI", Myriad, Verdana, sans-serif;
+    font-size: 1em;
+    font-weight: 400;
+    height: 1.5635em;
+    line-height: 1.5635em;
+    padding-top: 0.5625em;
+    width: 12.5em;
+}
+
+#terms {
+    margin-top: 3.5em;
+}
+
+#terms label:first-of-type {
+    margin-top: 1.25em;
+    padding-left: 1.25em;
+    color: rgb(68, 68, 68);
+    cursor: pointer;
+    display: block;
+    font-family: "NS Sans", "Segoe UI", Myriad, Verdana, sans-serif;
+    font-size: 1em;
+    font-weight: 400;
+    height: 1.5635em;
+    line-height: 1.5635em;
+    margin-bottom: 0.3125em;
+    min-height: 1.25em;
+}
+
+#terms label:first-of-type input {
+    margin-top: 0.4375em;
+    margin-left: -1.25em;
+    background-color: rgba(0, 0, 0, 0);
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    display: block;
+    float: left;
+    font-family: "NS Sans", "Segoe UI", Myriad, Verdana, sans-serif;
+    font-size: 1em;
+    font-weight: 400;
+    height: 0.8125em;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: start;
+    vertical-align: middle;
+    width: 0.8125em;
+}
+
+#submit {
+    margin-top: 2em;
+    margin-bottom: 1.625em;
+}
+
+.submit-cancel {
+    color: rgb(68, 68, 68);
+    font-family: "NS Sans", "Segoe UI", Myriad, Verdana, sans-serif;
+    font-size: 1em;
+    height: 3.5em;
+    line-height: 1.5635em;
+}
+
+.cancel {
+    color: rgb(68, 68, 68);
+    display: inline-block;
+    height: 1.5635em;
+    line-height: 1.5635em;
+    margin-right: 1.875em;
+    vertical-align: middle;
+}
+
+.cancel a {
+    border-bottom: 0.125em solid rgb(230, 230, 233);
+    color: rgb(0, 121, 211);
+    cursor: pointer;
+    display: inline;
+    height: 100%;
+    line-height: 1.5635em;
+    padding-bottom: 0.6875em;
+    text-decoration-color: rgb(0, 121, 211);
+    text-decoration-line: none;
+    text-decoration-style: solid;
+    vertical-align: middle;
+}
+
+.cancel a:hover {
+    border-bottom-color: #0079d3;
+}
+
+#submit button {
+    padding: 0.625em 2.9375em 0.625em 1.125em;
+    background-color: rgb(0, 121, 211);
+    background-position-x: 94%;
+    background-position-y: 50%;
+    border: none;
+    box-shadow: rgb(0, 92, 160) 0 -2px 0 0 inset;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    display: inline-block;
+    font-family: "NS Sans", "Segoe UI", Myriad, Verdana, sans-serif;
+    font-size: 1em;
+    font-weight: 400;
+    height: 2.8125em;
+    letter-spacing: normal;
+    line-height: 1.5635em;
+    margin-top: 0.625em;
+    min-width: 7.5em;
+    outline: 0;
+    vertical-align: middle;
+    width: 8.825em;
+}
+
+#submit button span {
+    display: inline-block;
+    position: absolute;
+    margin-left: 1.375em;
+}
+
+#submit button:hover {
+    background-color: rgb(0, 92, 160);
+}
+
+input:valid {
+    border-color: green;
+}
+
+input:invalid {
+    border-color: red;
+}
+
+input:not([val]),
+input[val=""] {
+    border-color: rgb(181, 181, 188);
+}
+
+@media screen and (max-width: 31.25em) {
+    .content {
+        padding-left: 0.1875em;
+        padding-right: 0.1875em;
+    }
+}

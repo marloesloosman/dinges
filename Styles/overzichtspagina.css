@@ -1,0 +1,250 @@
+#vvddimg {
+    margin-top: 4em;
+    background-image: url('../Images/header.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 30em;
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 1.5%;
+}
+
+#verhaalvandedag {
+    margin: auto;
+    padding: 1em;
+    z-index: 1;
+    position: absolute;
+    top: 4.5em;
+    height: auto;
+    width: 40em;
+    background: rgba(0, 0, 0, .01);
+}
+
+.story {
+    width: calc(100% - 5.75em);
+    height: auto;
+    background-color: white;
+    padding: 2em;
+    margin: 0.875em;
+    transition: .3s;
+}
+
+.story .heading {
+    width: calc(100% - 3em);
+    display: inline-block;
+    margin-bottom: .2em;
+    margin-top: 0;
+    color: rgb(0, 48, 130);
+    font-family: "NS Sans", "Segoe UI", Myriad, Verdana, sans-serif;
+    font-size: 1.5em;
+    font-weight: 400;
+    line-height: 1.875em;
+}
+
+.story .genre-icon {
+    width: 2.8em;
+    top: -1.75em;
+    right: .875em;
+    position: relative;
+    vertical-align: text-top;
+    float: right;
+    margin-top: 0.875em;
+    transform: translate(32px);
+}
+
+.story .subheading {
+    color: #0079d3;
+    font-size: 0.6em;
+}
+
+.story .text {
+    color: rgb(6, 9, 34);
+    font-family: "NS Sans", "Segoe UI", Myriad, Verdana, sans-serif;
+    font-size: 1em;
+    line-height: 1.5635em;
+}
+
+.story .link {
+    color: rgb(0, 121, 211);
+    cursor: pointer;
+    font-family: "NS Sans", "Segoe UI", Myriad, Verdana, sans-serif;
+    font-size: 1em;
+    font-weight: 400;
+    line-height: 1.5635em;
+    text-decoration: none;
+}
+
+.link span {
+    margin-right: 0.625em;
+    margin-left: 0;
+    transition: .2s;
+}
+
+.link:hover span {
+    margin-right: 0.1875em;
+    margin-left: 0.4375em;
+}
+
+main {
+    vertical-align: top;
+}
+
+.hero-overlay-svg {
+    width: auto;
+    height: 100%;
+    left: calc(50% - 27.1875em);
+    color: #fff;
+}
+
+.cls-1 {
+    fill: none;
+}
+
+.cls-2 {
+    clip-path: url(#clip-path);
+}
+
+.cls-3 {
+    opacity: .6;
+    fill: url(#linear-gradient);
+}
+
+.hero-title {
+    color: rgb(255, 255, 255);
+    display: block;
+    font-family: "NS Sans", "Segoe UI", Myriad, Verdana, sans-serif;
+    font-size: 2.375em;
+    font-weight: 700;
+    height: 2.9375em;
+    letter-spacing: -0.01875em;
+    line-height: 2.96875em;
+    text-shadow: rgba(7, 7, 33, 0.35) 1px 1px 0, rgba(7, 7, 33, 0.25) 0 0 1.875em;
+    margin-bottom: 0.625em;
+}
+
+.hero-text {
+    color: rgb(255, 255, 255);
+    font-family: "NS Sans", "Segoe UI", Myriad, Verdana, sans-serif;
+    font-size: 1.25em;
+    font-weight: 400;
+    height: 1.5635em;
+    letter-spacing: -0.3px;
+    line-height: 1.5635em;
+    text-shadow: rgba(7, 7, 33, 0.35) 1px 1px 0, rgba(7, 7, 33, 0.25) 0 0 30px;
+}
+
+a.hero-link {
+    cursor: pointer;
+    font-family: "NS Sans", "Segoe UI", Myriad, Verdana, sans-serif;
+    font-size: 1em;
+    font-weight: 400;
+    line-height: 1.5635em;
+    text-decoration-color: rgb(255, 255, 255);
+    text-decoration-line: none;
+    text-decoration-style: solid;
+    text-shadow: rgba(7, 7, 33, 0.35) 0.0625em 0.0625em 0, rgba(7, 7, 33, 0.25) 0 0 1.875em;
+    color: white;
+}
+
+.hero-link:hover {
+    color: #e6e6e9;
+}
+
+#genres {
+    margin-top: -6em;
+    background: #ffc917;
+    padding: 2em 2em 0 2em;
+    max-width: 80%;
+}
+
+#genre-heading {
+    border-collapse: separate;
+    box-sizing: border-box;
+    color: rgb(0, 48, 130);
+    font-family: "NS Sans", "Segoe UI", Myriad, Verdana, sans-serif;
+    font-size: 1.1875em;
+    font-weight: 400;
+    height: 2.8125em;
+    line-height: 2.8125em;
+    margin: 0 0 1em 0;
+    width: 50%;
+    float: left;
+    display: inline-block;
+}
+
+#genre-select-container {
+    width: 50%;
+    float: right;
+    display: inline-block;
+}
+
+#genre-select {
+    padding: 0.6875em 0.9375em 0.5625em 0.9375em;
+    outline: 0;
+    cursor: pointer;
+    width: 100%;
+    max-width: 25em;
+    margin: 0.125em 0;
+    color: rgb(0, 48, 130);
+    font-family: "NS Sans", "Segoe UI", Myriad, Verdana, sans-serif;
+    font-weight: 400;
+}
+
+#genre-select option {
+    color: rgb(0, 48, 130);
+    font-family: "NS Sans", "Segoe UI", Myriad, Verdana, sans-serif;
+    font-weight: 400;
+}
+
+@media screen and (min-width: 37.5em) {
+
+    #genres {
+        max-width: calc(80% - 4em);
+    }
+
+    #genre-heading {
+        font-size: 1.875em;
+        margin-top: -1.25em;
+    }
+
+    article.story {
+        display: inline-block;
+        width: calc(50% - 5.75em);
+        clear: both;
+    }
+
+    article.story:nth-of-type(even) {
+        float: right;
+    }
+}
+
+@media screen and (min-width: 62em) {
+    article.story {
+        display: inline-block;
+        width: calc(33.3% - 6em);
+        clear: both;
+        vertical-align: top;
+    }
+
+    article.story:nth-of-type(even) {
+        float: none;
+    }
+
+    #genre-heading {
+        margin-top: -1em;
+        font-size: 2em;
+    }
+
+    #genres {
+        max-width: 56em;
+    }
+
+    .container {
+        padding-top: 2em;
+    }
+}

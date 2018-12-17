@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="nl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=yes, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="Styles/account.css">
+    <link rel="stylesheet" href="Styles/Stylesheet.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12">
+                <img src="Images/icons/nslogo.svg" alt="" id="logo" width="52" height="20">
+            </div>
+            <div class="col-xs-12 content">
+                <div class="col-xs-12" id="header">
+                    <h1>Account aanmaken</h1>
+                    <p>
+                        Vul de volgende gegevens in om uw account aan te maken.
+                    </p>
+                </div>
+                <div class="col-xs-12 col-sm-10" id="form">
+                    <h3>Inloggegevens</h3>
+                    <div class="row">
+                        <div class="col-xs-4">
+                            <label for="email">
+                                E-mailadres
+                            </label>
+                        </div>
+                        <div class="col-xs-8">
+                            <input type="email" id="email" class="text-input" autocomplete="email" required>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-4">
+                            <label for="confirm-email">
+                                Bevestig e-mailadres
+                            </label>
+                        </div>
+                        <div class="col-xs-8">
+                            <input type="email" id="confirm-email" class="text-input" autocomplete="email" required>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-4">
+                            <label for="password">
+                                Wachtwoord
+                            </label>
+                        </div>
+                        <div class="col-xs-8">
+                            <input type="password" id="password" class="text-input" autocomplete="new-password" required>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-4">
+                            <label for="confirm-password">
+                                Bevestig wachtwoord
+                            </label>
+                        </div>
+                        <div class="col-xs-8">
+                            <input type="password" id="confirm-password" class="text-input" required>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12" id="terms">
+                    <h3>Voorwaarden</h3>
+                    <label>
+                        <input type="checkbox" required>Ik ga akkoord met de voorwaarden
+                    </label>
+                </div>
+                <div class="col-xs-12 col-sm-8 col-sm-offset-4" id="submit">
+                    <div class="cancel">
+                        <a href="overzichtspagina.html" class="action-link" id="cancel-sign-up">Annuleren</a>
+                    </div>
+                    <button type="submit" id="confirm">Aanmaken <span>&gt;</span></button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="JavaScript/index.js"></script>
+</body>
+
+</html>

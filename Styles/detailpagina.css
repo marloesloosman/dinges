@@ -1,0 +1,310 @@
+.verhaal123 {
+    width: 80vw;
+    margin-right: 10vw;
+    margin-left: 10vw;
+}
+
+#nonactief,
+#actief {
+    position: fixed;
+    width: 3vw;
+    height: 3vw;
+    right: 2vw;
+}
+
+#nonactief:hover {
+    animation: swing 1s ease;
+    animation-iteration-count: 1;
+}
+
+@keyframes swing {
+    15% {
+        transform: translateX(0.3125em);
+    }
+    30% {
+        transform: translateX(-0.3125em);
+    }
+    50% {
+        transform: translateX(0.1875em);
+    }
+    65% {
+        transform: translateX(-0.1875em);
+    }
+    80% {
+        transform: translateX(0.125em);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
+#Beroemd {
+    display: flex;
+    width: 100%;
+}
+
+#BeroemdM {
+    display: none;
+}
+
+#BeroemdL {
+    display: none;
+}
+
+#BeroemdXL {
+    display: none;
+}
+
+@media screen and (min-width: 31.25em) {
+    .verhaal123 #Beroemd {
+        display: none;
+    }
+    .verhaal123 #BeroemdM {
+        display: flex;
+        width: 100%;
+    }
+    .verhaal123 #BeroemdL {
+        display: none;
+    }
+    .verhaal123 #BeroemdXL {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 54.6875em) {
+    .verhaal123 #Beroemd {
+        display: none;
+    }
+    .verhaal123 #BeroemdM {
+        display: none;
+    }
+    .verhaal123 #BeroemdL {
+        display: flex;
+        width: 100%
+    }
+    .verhaal123 #BeroemdXL {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 78.125em) {
+    .verhaal123 #Beroemd {
+        display: none;
+    }
+    .verhaal123 #BeroemdM {
+        display: none;
+    }
+    .verhaal123 #BeroemdL {
+        display: none;
+    }
+    .verhaal123 #BeroemdXL {
+        display: flex;
+        width: 100%;
+    }
+}
+
+.MartinBril {
+    color: #3d3d3d;
+    line-height: 1.8em;
+    font-size: 0.7em;
+    text-align: justify;
+}
+
+#MartinBril {
+    color: #3d3d3d;
+    font-size: 1.7em;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin: 0;
+}
+
+@media screen and (min-width: 25em) {
+    .MartinBril {
+        font-size: 0.875em;
+    }
+}
+
+@media screen and (min-width: 31.25em) {
+    .MartinBril {
+        font-size: 1.05em;
+    }
+    #MartinBril {
+        font-size: 2.2em;
+    }
+}
+
+@media screen and (min-width: 37.5em) {
+    .MartinBril {
+        font-size: 1.225em;
+    }
+}
+
+@media screen and (min-width: 46.875em) {
+    .MartinBril {
+        margin-left: 15vw;
+        margin-right: 15vw;
+    }
+    #MartinBril {
+        margin-left: 15vw;
+    }
+}
+
+@media screen and (min-width: 62.5em) {
+    .MartinBril {
+        font-size: 1.4em;
+    }
+}
+
+@media screen and (min-width: 71.875em) {
+    .MartinBril {
+        margin-left: 20vw;
+        margin-right: 20vw;
+    }
+    #MartinBril {
+        margin-left: 20vw;
+    }
+}
+
+@media screen and (min-width: 81.25em) {
+    .MartinBril {
+        margin-left: 25vw;
+        margin-right: 25vw;
+    }
+    #MartinBril {
+        margin-left: 25vw;
+    }
+}
+
+@media screen and (max-width: 31.25em) {
+    #Klumperbeven {
+        display: flex;
+        width: 100%;
+    }
+    #KlumperbevenM {
+        display: none;
+    }
+    #KlumperbevenL {
+        display: none;
+    }
+    #KlumperbevenXL {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 31.25em) {
+    .verhaal123 #Klumperbeven {
+        display: none;
+    }
+    .verhaal123 #KlumperbevenM {
+        display: flex;
+        width: 100%;
+    }
+    .verhaal123 #KlumperbevenL {
+        display: none;
+    }
+    .verhaal123 #KlumperbevenXL {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 54.6875em) {
+    .verhaal123 #Klumperbeven {
+        display: none;
+    }
+    .verhaal123 #KlumperbevenM {
+        display: none;
+    }
+    .verhaal123 #KlumperbevenL {
+        display: flex;
+        width: 100%
+    }
+    .verhaal123 #KlumperbevenXL {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 78.125em) {
+    .verhaal123 #Klumperbeven {
+        display: none;
+    }
+    .verhaal123 #KlumperbevenM {
+        display: none;
+    }
+    .verhaal123 #KlumperbevenL {
+        display: none;
+    }
+    .verhaal123 #KlumperbevenXL {
+        display: flex;
+        width: 100%;
+    }
+}
+
+#react {
+    position: fixed;
+    width: 20em;
+    height: 9em;
+    bottom: 0;
+    right: 0;
+    font-size: 1em;
+}
+
+#zend {
+    width: 2.5em;
+    display: none;
+    position: absolute;
+    right: 1em;
+    top: calc(50% - 1.25em);
+}
+
+#zend:hover,
+#comment:hover {
+    animation: shake 1s 1;
+    animation-timing-function: linear;
+}
+
+@keyframes shake {
+    0% {
+        transform: rotate(0deg);
+    }
+    25% {
+        transform: rotate(45deg);
+    }
+    50% {
+        transform: rotate(0deg);
+    }
+    75% {
+        transform: rotate(-45deg);
+    }
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+#reageer {
+    display: none;
+    height: 0;
+    width: 17em;
+    padding: 1em;
+    font-size: 1em;
+    position: absolute;
+    bottom: 1em;
+    left: 0;
+    transition: height 1s;
+    resize: none;
+    border-radius: 0.1875em;
+    border: 0.06125em solid #ddd;
+    outline: 0;
+}
+
+#comment {
+    width: 2.5em;
+    position: absolute;
+    right: 1em;
+    bottom: 1em;
+}
+
+body {
+    padding-top: 5em;
+}

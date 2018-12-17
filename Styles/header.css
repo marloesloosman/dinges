@@ -1,0 +1,113 @@
+header {
+    background-color: white;
+    vertical-align: top;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    height: 3.8em;
+    box-shadow: 0 .125rem 0 0 rgba(7, 7, 33, .15);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+}
+
+header::after {
+    content: " ";
+    display: block;
+    clear: both;
+}
+
+#zoekbalk {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#searchInput {
+    border: none;
+    border-bottom: 1px solid rgb(7, 7, 33);
+    color: rgb(7, 7, 33);
+    cursor: text;
+    font-family: "NS Sans", "Segoe UI", Myriad, Verdana, sans-serif;
+    font-size: 1em;
+    font-weight: 400;
+    height: 1.6875em;
+    line-height: 1.5635em;
+    min-height: 1.6875em;
+    text-indent: 0;
+    width: 15.625em;
+    outline: 0;
+    padding: 0.3125em;
+}
+
+#search-icon,
+#search-text {
+    cursor: pointer;
+}
+
+.container {
+    width: 100%;
+    max-width: 73.25em;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+    padding-top: 1em;
+}
+
+.container.with-padding {
+    padding: 1.125em 2em;
+}
+
+#logo {
+    width: 3.25em;
+    height: 1.25em;
+    float: left;
+    display: inline-block;
+    margin-left: 2em;
+    cursor: pointer;
+    transition: .3s;
+}
+
+#logo:hover {
+    transform: scale(1.1, 1.1);
+}
+
+.menu-right {
+    float: right;
+    display: inline-block;
+    margin-right: 2em;
+}
+
+.menu-right .icon {
+    height: 2.1875em;
+    width: 2.1875em;
+    margin-top: -0.375em;
+}
+
+.menu-right .icon-text {
+    height: 2.1875em;
+    margin-top: -2.375em;
+    display: block;
+    margin-left: 2.1875em;
+    line-height: 2.1875em;
+    color: #003082;
+    ;
+    font-family: "NS Sans", "Segoe UI", Myriad, Verdana, sans-serif;
+    font-size: 1em;
+}
+
+header .container {
+    max-height: 1.5em;
+}
+
+#search {
+    margin-right: 1em;
+}
+
+@media only screen and (max-width: 31.25em) {
+    #searchInput {
+        width: 5em;
+    }
+}
